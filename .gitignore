@@ -145,3 +145,23 @@ cython_debug/
 
 # bin
 *.bin
+
+# exclude model
+model/*
+!model/README.md
+
+# exclude all generated data
+dataset/original/*
+!dataset/original/README.md
+
+dataset/test_set/*
+!dataset/test_set/README.md
+
+dataset/train_set/*
+!dataset/train_set/README.md
+
+dataset/val_set/*
+!dataset/val_set/README.md
+
+# generated h5 files
+*.h5
